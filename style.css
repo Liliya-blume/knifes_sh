@@ -55,6 +55,12 @@ border: 3px solid #000000;
 .nav{display-flex;
 
 }
+   }
+.menu{display: flex;
+	flex-direction: column-reverse
+   height: 100%;
+}
+
 .logo {
 	position: absolute;
 width: 198px;
