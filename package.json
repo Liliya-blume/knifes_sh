@@ -1,0 +1,21 @@
+{
+  "name": "knifes_shop_ira",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sync": "browser-sync start --server --files css/*.css, ./*.css, ./*.html, js/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Liliya-blume/knifes_sh.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Liliya-blume/knifes_sh/issues"
+  },
+  "homepage": "https://github.com/Liliya-blume/knifes_sh#readme"
+}
