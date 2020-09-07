@@ -9,4 +9,57 @@
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  background-image: url(images/background.png); 
+  background-repeat: no-repeat;
+}
+.header {height: 200px;
+} 
+h1 {position: absolute;
+width: 275px;
+height: 105px;
+left: 95px;
+top: 526px;
+
+font-family: Sacramento;
+font-style: normal;
+font-weight: normal;
+font-size: 72px;
+line-height: 105px;
+
+letter-spacing: 0.1em;
+
+mix-blend-mode: normal;
+border: 3px solid #FFEFEF;
+}
+h2 {position: absolute;
+width: 610px;
+height: 38px;
+left: 522px;
+top: 553px;
+
+font-family: Sacramento;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 55px;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.1em;
+
+border: 3px solid #000000;
+
+}
+.nav{display-flex;
+
+}
+.logo {
+	position: absolute;
+width: 198px;
+height: 206px;
+left: 82px;
+top: 322px;
+
+background: url(орел_лого.png);
 }
