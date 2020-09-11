@@ -7,12 +7,13 @@
 }
 
 header {
-  height: 200px;
+  height: 600px;
   background-image: url(images/background.png);
-}
+  }
 
 .container {
   max-width: 1200px;
+  min-height:685px;/*правильно??*/
   margin: 0 auto; 
 }
 
@@ -37,7 +38,11 @@ h1 {
   letter-spacing: 0.1em;
 }
 
-.menu{
+.menu_1{
+  display: flex;
+  justify-content: center;
+}
+.menu_2{
   display: flex;
   justify-content: center;
 }
@@ -55,4 +60,23 @@ li {
 }
 
 .banner{
+}
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 20px;
+}
+.sidebar_item{
+	cursor: pointer;
+	font-size: 18px;
+}
+
+}
+.sidebar_item :hover{
+	background-color: #00FF00;
+	border-radius: 4px;
+
+}
 }
