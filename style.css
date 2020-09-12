@@ -17,34 +17,42 @@ header {
   margin: 0 auto; 
 }
 
-h2 {
+ h1 {
   font-family: Sacramento;
   font-style: normal;
   font-weight: normal;
   font-size: 72px;
   line-height: 105px;
   letter-spacing: 0.1em;
-  /* border: 3px solid #FFEFEF;*/
+  left: 52px;
+  position: absolute;
+  top:452px;
+  color: #FFFFFF;
 }
 
-h1 {
+h2 {
   font-family: Sacramento;
-  font-style: normal;
+  font-style: normal;     
   font-weight: normal;
   font-size: 30px;
   line-height: 55px;
   align-items: center;
   text-align: center;
   letter-spacing: 0.1em;
-}
+  position: absolute;
+  top:485px;
+  right: 30px;
+  color: #FFFFFF;
 
-.menu_1{
+  }
+
+.menu{
   display: flex;
   justify-content: center;
-}
-.menu_2{
-  display: flex;
-  justify-content: center;
+  position: relative; 
+  top: 30px;
+  font-size: 20px;
+  font-weight:normal;
 }
 
 li {
@@ -54,12 +62,10 @@ li {
 
 .logo {
   width: 198px;
-  height: 206px;
-  left: 82px;
-  top: 322px;
-}
-
-.banner{
+  height: 200px;
+  left: 42px;
+  position: absolute;
+  top:290px;
 }
 .sidebar{
   display: flex;
@@ -67,16 +73,20 @@ li {
   justify-content: space-between;
   margin: 20px;
   padding: 20px;
+  width: 150px;
 }
 .sidebar_item{
 	cursor: pointer;
 	font-size: 18px;
+	color: #000000;
+	text-decoration: none;
+	margin: 20px;
 }
-
-}
-.sidebar_item :hover{
-	background-color: #00FF00;
+.sidebar_item:hover{
+	background-color: #7cfc00;
 	border-radius: 4px;
-
 }
+a{	
+	color:#000000;
+	text-decoration: none;
 }
