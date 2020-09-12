@@ -9,6 +9,7 @@
 header {
   height: 600px;
   background-image: url(images/background.png);
+  background-repeat: no-repeat; 
   }
 
 .container {
@@ -41,7 +42,7 @@ h2 {
   letter-spacing: 0.1em;
   position: absolute;
   top:485px;
-  right: 30px;
+  right: 100px;
   color: #FFFFFF;
 
   }
@@ -67,6 +68,7 @@ li {
   position: absolute;
   top:290px;
 }
+
 .sidebar{
   display: flex;
   flex-direction: column;
@@ -86,7 +88,14 @@ li {
 	background-color: #7cfc00;
 	border-radius: 4px;
 }
+
 a{	
 	color:#000000;
 	text-decoration: none;
+}
+.text{
+  right:100px;
+  position: absolute;
+  left: 300px;
+  top:660px;
 }
