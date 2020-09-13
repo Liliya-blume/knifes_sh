@@ -28,7 +28,8 @@ header {
 .container {
   max-width: 1200px;
   min-height:685px;/*правильно??*/
-  margin: 0 auto; 
+  margin: 0 auto;
+   position: relative; 
 }
 
  h1 {
@@ -39,10 +40,10 @@ header {
   line-height: 105px;
   letter-spacing: 0.1em;
   left: 52px;
-  position: absolute;
   top:452px;
   color: #FFFFFF;
-}
+  background-color: #FF0000}
+
 
 h2 {
   font-family: Sacramento;
@@ -53,20 +54,19 @@ h2 {
   align-items: center;
   text-align: center;
   letter-spacing: 0.1em;
-  position: absolute;
   top:485px;
   right: 100px;
   color: #FFFFFF;
-
-  }
+  background-color: #87EA00;
+}
 
 .menu{
   display: flex;
-  justify-content: center;
-  position: relative; 
+  justify-content: center; 
   top: 30px;
   font-size: 20px;
   font-weight:normal;
+  background-color: #70E500;
 }
 
 li {
@@ -74,13 +74,13 @@ li {
   margin: 0 50px;
 }
 
-.logo {
+/*.logo {
   width: 198px;
   height: 200px;
   left: 42px;
-  position: absolute;
   top:290px;
-}
+  background-color: #FFD500;
+}*/
 
 .sidebar{
   display: flex;
@@ -111,7 +111,24 @@ a {
 
 .text{
   right:100px;
-  position: absolute;
   left: 300px;
   top:660px;
 }
+/*Стили блоков:*/
+.nav{
+background-color: #FFFFFF;
+margin-bottom:50px;
+}
+.heading{
+ margin-top: 400px;
+ width: 30%;
+}
+.inscription{
+background-color: #FFF444;
+ width: 68%; 
+ margin-top:400px;
+ margin-left: 30%;
+}
+ /*@media screen and (max-device-width: 1024px) {
+      .nav {display: none;}                         медиазапрос-исчезающее меню*/  
+ 
