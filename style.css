@@ -6,11 +6,24 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: 'Pehlevi';
+  src: url('Pehlevi-Regular.eot');
+  src: local('Pehlevi Regular'), local('Pehlevi-Regular'),
+      url('./fonts/Pehlevi-Regular.woff2') format('woff2'),
+      url('./fonts/Pehlevi-Regular.woff') format('woff'),
+      url('./fonts/Pehlevi-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 header {
   height: 600px;
   background-image: url(images/background.png);
   background-repeat: no-repeat; 
-  }
+  background-position: center;
+  background-size: cover;
+}
 
 .container {
   max-width: 1200px;
@@ -82,31 +95,23 @@ li {
 	font-size: 18px;
 	color: #000000;
 	text-decoration: none;
-	margin: 20px;
+  margin: 20px;
+  font-family: "Pehlevi";
 }
-<<<<<<< HEAD
 
-/* } */
-.sidebar_item :hover{
-	background-color: #00FF00;
-=======
 .sidebar_item:hover{
 	background-color: #7cfc00;
->>>>>>> 8644a612f320de00c80b1b75c4c2ed609d0a858c
 	border-radius: 4px;
 }
 
-a{	
+a {	
 	color:#000000;
 	text-decoration: none;
 }
-<<<<<<< HEAD
-/* } */
-=======
+
 .text{
   right:100px;
   position: absolute;
   left: 300px;
   top:660px;
 }
->>>>>>> 8644a612f320de00c80b1b75c4c2ed609d0a858c
