@@ -17,62 +17,33 @@
   font-style: normal;
 }
 
+.container {
+  max-width: 1200px;
+  /*min-height:685px;правильно??*/
+  margin: 0 auto;
+  position: relative; 
+}
+
+/*
+Стили блоков
+================ 
+*/
+
+/* Стиль header */
+
 header {
-  height: 600px;
+  /* height: 600px; */
   background-image: url(images/background.png);
   background-repeat: no-repeat; 
   background-position: center;
   background-size: cover;
 }
 
-.container {
-  max-width: 1200px;
-  min-height:685px;/*правильно??*/
-  margin: 0 auto;
-   position: relative; 
+.nav {
+  background-color: #FFFFFF;
+  margin-bottom:50px;
 }
-
- h1 {
-  font-family: Sacramento;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 72px;
-  line-height: 105px;
-  letter-spacing: 0.1em;
-  left: 52px;
-  top:452px;
-  color: #FFFFFF;
-  background-color: #FF0000}
-
-
-
-h2 {
-  font-family: Sacramento;
-  font-style: normal;     
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 55px;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.1em;
-  top:485px;
-  right: 100px;
-  color: #FFFFFF;
-  /* background-color: #87EA00; */
-}
-h3{ 
-  font-family: "Pehlevi";
-  font-style: normal;     
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 55px;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.1em;
-  color: #000000;
-}
-
-
+  
 .menu{
   display: flex;
   justify-content: center; 
@@ -88,13 +59,76 @@ li {
   margin: 0 50px;
 }
 
-/*.logo {
-  width: 198px;
-  height: 200px;
-  left: 42px;
-  top:290px;
-  background-color: #FFD500;
-}*/
+a {	
+	color:#000000;
+	text-decoration: none;
+}
+
+.header-container {
+  display: flex;
+  margin-top: 200px;
+  padding-bottom: 80px;
+}
+
+.heading{
+  width: 30%;
+}
+
+.logo_orel {
+  margin-bottom: 0;
+}
+
+.inscription{
+  display: flex; 
+  justify-content: center;
+  align-items: flex-end;
+  background-color: #FFF444;
+  width: 70%; 
+  padding-bottom: 30px;
+}
+
+h1 {
+  font-family: Sacramento;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 105px;
+  letter-spacing: 0.1em;
+  left: 52px;
+  top:452px;
+  color: #FFFFFF;
+  background-color: #FF0000
+}
+
+h2 {
+  font-family: Sacramento;
+  font-style: normal;     
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 55px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  top:485px;
+  right: 100px;
+  color: #FFFFFF;
+  /* background-color: #87EA00; */
+}
+
+h3{ 
+  font-family: "Pehlevi";
+  font-style: normal;     
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 55px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
+
+/* Стиль main */
 
 .sidebar{
   display: flex;
@@ -102,10 +136,10 @@ li {
   justify-content: space-between;
   margin: 20px;
   padding: 20px;
-  width: 60 %;
+  /* width: 60 %; */
   background-color: #7cfc00;
-
 }
+
 .sidebar_item{
   display: flex; /* Блочный элемент (для старых браузеров) */
   justify-content: center;
@@ -122,41 +156,6 @@ li {
 	border-radius: 4px;
 }
 
-a {	
-	color:#000000;
-	text-decoration: none;
-}
-
-
-
-
-/*
-Стили блоков
-================ 
-*/
-
-/* Стиль header */
-.nav{
-background-color: #FFFFFF;
-margin-bottom:50px;
-}
-
-.header-container {
-  display: flex;
-  margin-top: 400px;
-  padding:20px; 
-}
-
-.heading{
-  width: 30%;
-}
-
-.inscription{
-  display: flex; /* Блочный элемент (для старых браузеров) */
-  justify-content: center;
-  background-color: #FFF444;
-  width: 69%; 
-}
 .text{
   display: flex;
   justify-content: center;
@@ -166,27 +165,47 @@ margin-bottom:50px;
   background-color: #FFD500;
   padding:10px;
 }
+
 .text-container{
   display: flex;
   margin-top: 100px;
   justify-content:space-around; ;
 }
+
 .pattern {
     display: flex; /* Блочный элемент (для старых браузеров) */
     justify-content: center;
 }
+
 .subtitle{
-  display: flex;
-  justify-content: center;
-  height: 82px;
-  width: 382px;
+  /* display: flex;
+  justify-content: center; */
+  /* height: 82px;*/
+  text-align: center;
+  width: 382px; 
+  margin: 0 auto;
   background-color: #6BFF25;
 }
+
 .knifes{
   display: flex;
-  justify-content: center;
-  margin:50px;
+  justify-content: space-between;
+  margin: 80px 0 120px;
 }
+
+.knives-item{
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+img{
+  /* display: inline; */
+  /* margin: 0 70px; */
+  max-height: 200px;
+  margin-bottom: 30px;
+}
+
 .text1{
   font-family: "Pehlevi";
   font-style: normal;     
@@ -200,10 +219,8 @@ margin-bottom:50px;
   padding: 40px;
 }
 
-img{
-  display: inline;
-  margin: 0 70px;
-}
+
+/* Стиль footer */
 
 .footer-container{
   display: flex;
