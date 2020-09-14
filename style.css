@@ -17,15 +17,6 @@
   font-style: normal;
 }
 
-header {
-  /* height: 600px; */
-  background-image: url(images/background.png);
-  background-repeat: no-repeat; 
-  background-position: center;
-  background-size: cover;
-
-}
-
 .container {
   max-width: 1200px;
   /*min-height:685px;правильно??*/
@@ -33,47 +24,26 @@ header {
   position: relative; 
 }
 
- h1 {
-  font-family: Sacramento;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 72px;
-  line-height: 105px;
-  letter-spacing: 0.1em;
-  left: 52px;
-  top:452px;
-  color: #FFFFFF;
-  background-color: #FF0000}
+/*
+Стили блоков
+================ 
+*/
 
+/* Стиль header */
 
-
-h2 {
-  font-family: Sacramento;
-  font-style: normal;     
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 55px;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.1em;
-  top:485px;
-  right: 100px;
-  color: #FFFFFF;
-  /* background-color: #87EA00; */
-}
-h3{ 
-  font-family: "Pehlevi";
-  font-style: normal;     
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 55px;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.1em;
-  color: #000000;
+header {
+  /* height: 600px; */
+  background-image: url(images/background.png);
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-size: cover;
 }
 
-
+.nav {
+  background-color: #FFFFFF;
+  margin-bottom:50px;
+}
+  
 .menu{
   display: flex;
   justify-content: center; 
@@ -89,49 +59,9 @@ li {
   margin: 0 50px;
 }
 
-.sidebar{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 20px;
-  padding: 20px;
-  width: 60 %;
-  background-color: #7cfc00;
-
-}
-.sidebar_item{
-  display: flex; /* Блочный элемент (для старых браузеров) */
-  justify-content: center;
-	cursor: pointer;
-	font-size: 24px;
-	color: #000000;
-	text-decoration: none;
-  margin: 20px;
-  font-family: "Sacramento";
-}
-
-.sidebar_item:hover{
-	background-color: #7cfc00;
-	border-radius: 4px;
-}
-
 a {	
 	color:#000000;
 	text-decoration: none;
-}
-
-
-
-
-/*
-Стили блоков
-================ 
-*/
-
-/* Стиль header */
-.nav{
-background-color: #FFFFFF;
-margin-bottom:50px;
 }
 
 .header-container {
@@ -157,7 +87,74 @@ margin-bottom:50px;
   padding-bottom: 30px;
 }
 
+h1 {
+  font-family: Sacramento;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 105px;
+  letter-spacing: 0.1em;
+  left: 52px;
+  top:452px;
+  color: #FFFFFF;
+  background-color: #FF0000
+}
+
+h2 {
+  font-family: Sacramento;
+  font-style: normal;     
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 55px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  top:485px;
+  right: 100px;
+  color: #FFFFFF;
+  /* background-color: #87EA00; */
+}
+
+h3{ 
+  font-family: "Pehlevi";
+  font-style: normal;     
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 55px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
+
 /* Стиль main */
+
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 20px;
+  /* width: 60 %; */
+  background-color: #7cfc00;
+}
+
+.sidebar_item{
+  display: flex; /* Блочный элемент (для старых браузеров) */
+  justify-content: center;
+	cursor: pointer;
+	font-size: 24px;
+	color: #000000;
+	text-decoration: none;
+  margin: 20px;
+  font-family: "Sacramento";
+}
+
+.sidebar_item:hover{
+	background-color: #7cfc00;
+	border-radius: 4px;
+}
 
 .text{
   display: flex;
@@ -224,6 +221,7 @@ img{
 
 
 /* Стиль footer */
+
 .footer-container{
   display: flex;
   justify-content: center;
