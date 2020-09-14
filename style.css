@@ -45,6 +45,7 @@ header {
   background-color: #FF0000}
 
 
+
 h2 {
   font-family: Sacramento;
   font-style: normal;     
@@ -59,6 +60,18 @@ h2 {
   color: #FFFFFF;
   /* background-color: #87EA00; */
 }
+h3{ 
+  font-family: "Pehlevi";
+  font-style: normal;     
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 55px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
 
 .menu{
   display: flex;
@@ -67,6 +80,7 @@ h2 {
   font-size: 20px;
   font-weight:normal;
   background-color: #70E500;
+  padding: 20px;
 }
 
 li {
@@ -88,15 +102,19 @@ li {
   justify-content: space-between;
   margin: 20px;
   padding: 20px;
-  width: 150px;
+  width: 60 %;
+  background-color: #7cfc00;
+
 }
 .sidebar_item{
+  display: flex; /* Блочный элемент (для старых браузеров) */
+  justify-content: center;
 	cursor: pointer;
-	font-size: 18px;
+	font-size: 24px;
 	color: #000000;
 	text-decoration: none;
   margin: 20px;
-  font-family: "Pehlevi";
+  font-family: "Sacramento";
 }
 
 .sidebar_item:hover{
@@ -109,11 +127,7 @@ a {
 	text-decoration: none;
 }
 
-.text{
-  right:100px;
-  left: 300px;
-  top:660px;
-}
+
 
 
 /*
@@ -130,6 +144,7 @@ margin-bottom:50px;
 .header-container {
   display: flex;
   margin-top: 400px;
+  padding:20px; 
 }
 
 .heading{
@@ -137,10 +152,68 @@ margin-bottom:50px;
 }
 
 .inscription{
+  display: flex; /* Блочный элемент (для старых браузеров) */
+  justify-content: center;
   background-color: #FFF444;
-  width: 70%; 
+  width: 69%; 
+}
+.text{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin-left: 40 px;
+  margin-right: 40 px;
+  background-color: #FFD500;
+  padding:10px;
+}
+.text-container{
+  display: flex;
+  margin-top: 100px;
+  justify-content:space-around; ;
+}
+.pattern {
+    display: flex; /* Блочный элемент (для старых браузеров) */
+    justify-content: center;
+}
+.subtitle{
+  display: flex;
+  justify-content: center;
+  height: 82px;
+  width: 382px;
+  background-color: #6BFF25;
+}
+.knifes{
+  display: flex;
+  justify-content: center;
+  margin:50px;
+}
+.text1{
+  font-family: "Pehlevi";
+  font-style: normal;     
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 55px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #000000;
+  padding: 40px;
 }
 
+img{
+  display: inline;
+  margin: 0 70px;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 400px;
+  width: auto;
+  height: 400px;
+ background-color: #846655;
+ padding: 30px;
+}
  /*@media screen and (max-device-width: 1024px) {
       .nav {display: none;}                         медиазапрос-исчезающее меню*/  
- 
+
