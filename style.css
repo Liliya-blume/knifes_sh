@@ -57,7 +57,7 @@ h2 {
   top:485px;
   right: 100px;
   color: #FFFFFF;
-  background-color: #87EA00;
+  /* background-color: #87EA00; */
 }
 
 .menu{
@@ -114,21 +114,33 @@ a {
   left: 300px;
   top:660px;
 }
-/*Стили блоков:*/
+
+
+/*
+Стили блоков
+================ 
+*/
+
+/* Стиль header */
 .nav{
 background-color: #FFFFFF;
 margin-bottom:50px;
 }
+
+.header-container {
+  display: flex;
+  margin-top: 400px;
+}
+
 .heading{
- margin-top: 400px;
- width: 30%;
+  width: 30%;
 }
+
 .inscription{
-background-color: #FFF444;
- width: 68%; 
- margin-top:400px;
- margin-left: 30%;
+  background-color: #FFF444;
+  width: 70%; 
 }
+
  /*@media screen and (max-device-width: 1024px) {
       .nav {display: none;}                         медиазапрос-исчезающее меню*/  
  
